@@ -1,0 +1,61 @@
+ 
+
+.seat-selection {
+    padding: 20px;
+    text-align: center;  
+  }
+  
+  .date-time-selection {
+    margin-bottom: 20px;
+  }
+  
+  .date-time-selection label {
+    margin-right: 20px; 
+  }
+  
+  .seat-grid {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    margin-bottom: 20px;
+  }
+  
+  .seat-row {
+    display: flex; 
+    justify-content: center;  
+    gap: 10px; 
+  }
+  
+  .seat {
+    width: 45px;  
+    height: 45px;  
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    cursor: pointer; 
+    transition: background-color 0.3s;  
+    font-weight: bold;  
+    color: #333;  
+  }
+  
+  .seat.selected {
+    background-color: #61dafb;  
+    border-color: #21a1f1;  
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    transition: background-color 0.3s; }
+  
+  button:hover {
+    background-color: #218838;  
+  }
+  

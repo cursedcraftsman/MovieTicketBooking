@@ -1,0 +1,46 @@
+ 
+
+.movie-list {
+    padding: 20px;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    justify-content: center;  
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;  
+    padding: 15px;
+    text-align: center;
+    width: 220px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s;  
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .movie-card img {
+    width: 100%;  
+    border-radius: 10px 10px 0 0;  
+  }
+  
+  .book-movie-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .book-movie-button:hover {
+    background-color: #21a1f1;  
+  }
+  

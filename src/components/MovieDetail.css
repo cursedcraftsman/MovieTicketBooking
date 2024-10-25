@@ -1,0 +1,39 @@
+ 
+
+.datetime-selector {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-direction: column;
+  }
+  
+  .datetime-selector label {
+    font-size: 1rem;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .datetime-selector input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .proceed-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .proceed-button:hover {
+    background-color: #0056b3;
+  }
+  
